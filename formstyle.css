@@ -1,0 +1,57 @@
+.regform {
+    background-color: #fafafa;
+    min-height: 100vh;
+  }
+  
+  .regform h3 {
+    color: #00D2B5;
+    font-weight: bold;
+  }
+  
+  .regform nav {
+    background-color: #fff;
+  }
+  
+  .regform .card {
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+  }
+  
+  .regform .col-lg-12, .regform .col-lg-5 {
+    border-bottom: 1px solid #7e7373;
+    margin-top: 50px;
+  }
+  
+  .regform input, .regform textarea, .regform select {
+    width: 100%;
+    border: none;
+    outline: none;
+  }
+  
+  .regform .btn {
+    width: 100%;
+    background-color: #00D2B5;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .regform form .formControl.error {
+    border-bottom: 1px solid red;
+  }
+  
+  .regform form .formControl.error span {
+    color: red;
+  }
+  
+  .regform form .formControl.success {
+    border-bottom: 1px solid green;
+  }
+  
+  .regform form .formControl.success span {
+    color: green;
+  }
+  
+  .regform form .formControl {
+    width: 100%;
+  }
